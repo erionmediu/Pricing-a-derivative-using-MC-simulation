@@ -1,4 +1,4 @@
-# Pricing-Derivatives-using-Montecarlo-Simulation
+# Pricing Derivatives using Montecarlo Simulation
 
 Stock Price Analysis and Monte Carlo Simulation Overview
 
