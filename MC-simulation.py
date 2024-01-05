@@ -5,7 +5,6 @@ import matplotlib.dates as mdates
 from scipy.stats import norm
 import math
 
-filepath = "data-home-depo.csv"
 
 def load_and_prepare_data(filepath):
     data = pd.read_csv(filepath)
@@ -76,7 +75,7 @@ def run_pipeline(filepath, S0, annualrf, T, mc_sims, step, strike_price):
     print(f"Call Option Price: {Call_p}, Put Option Price: {Put_p}")
 
 # Parameters
-filepath = "data-home-depo.csv"
+filepath = "stock-data.csv"
 S0 = 315.85999  # last observed price
 annualrf = 0.03  # assumed 3 percent annual risk-free rate
 T = 19           # 19 days timeframe
