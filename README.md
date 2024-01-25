@@ -1,11 +1,9 @@
 # Pricing Derivatives using Montecarlo Simulation
 
-Stock Price Analysis and Monte Carlo Simulation Overview
-
 This project is dedicated to analyzing historical stock price data and forecasting future prices using Monte Carlo simulations. The main focus is on the stock of Home Depot (HD), but the methods used can be applied to any stock.
 This analysis includes visualizing investment growth over time, calculating log returns and their volatility, and predicting future stock prices and option valuations.
 
-Features
+Steps involved
 
     Data Loading and Cleaning: Load historical stock price data, rename columns for clarity, and calculate log returns.
     Investment Growth Visualization: Plot the growth of $1 invested in the stock over time, showing the cumulative return.
